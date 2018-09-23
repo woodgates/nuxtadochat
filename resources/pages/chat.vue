@@ -146,13 +146,7 @@
       },
   head () {
     return {
-      link: [
-        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto' }
-      ],
-      script:[
-        {src: "https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.min.js"},
-        {hid:'adonis', src: "https://unpkg.com/@adonisjs/websocket-client@1.0.9/dist/Ws.browser.js"}
-      ]
+
     } 
   }
     }
